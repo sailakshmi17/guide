@@ -23,7 +23,7 @@ The html `<select>` tag is used to create a dropdown list with one or more optio
 </html>   
 ```
 
-This tag will be able to use all <b>Event</b> and <b>Global</b> attributes of HTML
+This tag will be able to use all <b>Event</b> and <b>Global</b> attributes of HTML.
 
 
 #### More Information:
