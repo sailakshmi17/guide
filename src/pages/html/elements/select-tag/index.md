@@ -3,13 +3,30 @@ title: Select Tag
 ---
 ## Select Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/select-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The html `<select>` tag is used to create a dropdown list with one or more options to choose from.The options or choices inside the dropdown are defined by using the `<option>` tag inside `<select>` tag.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example:
+```html
+<html>
+   <head>
+      <title>The Select tag
+      </title>
+   </head>  
+   <body>
+     <p>Choose your gender</p>
+     <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+     </select>
+   </body>
+</html>   
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This tag will be able to use all <b>Event</b> and <b>Global</b> attributes of HTML
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[BIT Degree HTML Reference](https://www.bitdegree.org/learn/html-select/)
 
