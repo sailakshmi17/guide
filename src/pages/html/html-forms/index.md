@@ -20,6 +20,7 @@ Form contains control elements which are wrapped around ```<form></form>``` tags
 - ```week```
 - ```color```
 - ```datalist```
+- ```reset```
 
 Code example:
 ```html
@@ -38,6 +39,7 @@ Code example:
       <option value="Option3">
     </datalist> 
     <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
     <input type="color">
     <input type="checkbox" name="correct" value="correct">Correct
 </form>
@@ -56,7 +58,7 @@ HTML Forms are required when you want to collect some data from the site visitor
 A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.
 
 There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
-
+The reset element can be used to reset the values entered in the form ,nothing but form is reset to its original state. 
 The HTML `<form>` tag is used to create an HTML form and it has following syntax −
 
 ``` html    
